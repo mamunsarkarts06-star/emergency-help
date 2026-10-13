@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bg img/bg-light.jpg");
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #082552;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.call-btn {
+    display: inline-block;
+    background: #fa0505;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+.call-btn:hover {
+    background: #008000;
+    transform: translateY(-3px);
+}
+
+                    /** sarvis Card HTML start **/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 600px;
+    margin: 40px auto 0;
+}
+
+.card {
+    background: rgba(216, 211, 211, 0.279);
+    border-radius: 12px;
+    padding: 25px 15px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #082552;
+    margin-bottom: 6px;
+}
+
+.card p {
+    color: #8994a4;
+    font-size: 13px;
+    margin-bottom: 0;
+}
