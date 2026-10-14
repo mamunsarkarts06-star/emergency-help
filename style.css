@@ -13,10 +13,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: rgba(249, 247, 247, 0.199);
     padding: 14px 40px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     position: sticky;
+    border-radius: 10px;
     top: 0;
     z-index: 10;
 }
@@ -141,5 +142,48 @@ p {
 .card p {
     color: #57595d;
     font-size: 13px;
+    margin-bottom: 0;
+}
+
+
+                    /* SERVICES */
+.services {
+    padding: 40px 20px 0;
+}
+
+.services h2 {
+    color: #082552;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.section-sub {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.services .cards {
+    margin-top: 25px;
+}
+
+                    /* FOOTER */
+.footer {
+    background: rgba(200, 191, 191, 0.736);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer p {
+    color: #0a54df;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer b {
+    color: #ff6b70;
+}
+
+.footer p:last-child {
     margin-bottom: 0;
 }
