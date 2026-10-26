@@ -184,7 +184,7 @@ p {
 }
 
 .footer b {
-    color: #ff6b70;
+    color: #c82b30;
 }
 
 .footer p:last-child {
@@ -248,6 +248,20 @@ p {
     background: #c90009;
 }
 
+.email-small {
+    display: block;
+    background: #753a3cf2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.email-small:hover {
+    background: #9e383dab;
+}
 
 /* ambulance driver nam ,location & number list edit korar jonno*/
 
@@ -259,4 +273,27 @@ p {
     color: #082552;
     font-size: 14px;
     font-weight: bold;
-} 
+}
+
+
+                /*search-box create*/
+
+.search-box {
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 0 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #dce2ea;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-box input:focus {
+    border-color: #030398;
+}
