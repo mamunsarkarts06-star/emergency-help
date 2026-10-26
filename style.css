@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("bg-img/bg-light.jpg");
+    background-image: url("bg-img/bg-dark.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,7 +13,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(249, 247, 247, 0.199);
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 14px 40px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     position: sticky;
@@ -82,7 +84,7 @@ body {
 
 
 h1 {
-    color: #000000;
+    color: #fdfdfd;
     margin-bottom: 10px;
 }
 
@@ -119,8 +121,9 @@ p {
 .card {
     border-radius: 12px;
     text-decoration: none;
+    background: white;
     padding: 25px 15px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 12px rgba(63, 59, 59, 0.193);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -152,7 +155,7 @@ p {
 }
 
 .services h2 {
-    color: #082552;
+    color: #f2f4f7;
     font-size: 30px;
     margin-bottom: 8px;
 }
@@ -202,6 +205,7 @@ p {
     padding: 50px 20px 0;
 }
 
+
 /* LIST */
 .list {
     max-width: 600px;
@@ -210,37 +214,49 @@ p {
 }
 
 .list-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    background: rgba(216, 211, 211, 0.83);
+    background: white;
     border-radius: 12px;
-    padding: 16px 20px;
-    margin-bottom: 12px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+    text-align: center;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
 
 .list-item h3 {
-    color: #151515;
+    color: #082552;
     margin-bottom: 4px;
 }
 
 .list-item p {
-    color: #263f64;
+    color: #8994a4;
     font-size: 13px;
-    margin-bottom: 0;
+    margin-bottom: 14px;
 }
 
 .call-small {
+    display: block;
     background: #e71a22;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 22px;
+    text-align: center;
+    padding: 10px 0;
     border-radius: 8px;
 }
 
 .call-small:hover {
     background: #c90009;
 }
+
+
+/* ambulance driver nam ,location & number list edit korar jonno*/
+
+.list-item .area {
+    margin-bottom: 4px;
+}
+
+.list-item .driver {
+    color: #082552;
+    font-size: 14px;
+    font-weight: bold;
+} 
