@@ -298,3 +298,37 @@ p {
 .search-box input:focus {
     border-color: #030398;
 }
+
+
+
+
+
+                    /*Blood-Donor*/
+                    /*Blood-Donor*/
+                    /*Blood-Donor*/
+
+
+.search-box select {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #dce2ea;
+    border-radius: 10px;
+    font-size: 16px;
+    background: white;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-box select:focus {
+    border-color: #e71a22;
+}
+
+.blood-badge {
+    display: inline-block;
+    background: #ffecef;
+    color: #e71a22;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}

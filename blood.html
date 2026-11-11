@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donor - Emergency Help</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="index.html" class="brand">
+            <span class="brand-icon">+</span>
+            <span>Emergency <b>Help</b></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ambulance.html">Ambulance</a>
+            <a href="blood.html" class="active">Blood Donor</a>
+            <a href="police.html">Police</a>
+            <a href="fire.html">Fire Service</a>
+        </nav>
+
+        <a href="tel:999" class="nav-call">Call 999</a>
+    </header>
+
+    <!-- PAGE TITLE -->
+    <section class="page-head">
+        <h1>Blood Donor 🩸</h1>
+        <p>Choose a blood group to find donors.</p>
+    </section>
+
+    <!-- FILTER -->
+    <div class="search-box">
+        <select id="group">
+            <option value="all">All blood groups</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+    </div>
+
+    <!-- LIST -->
+    <section class="list" id="donor-list">
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>In danger? Call <b>999</b> first.</p>
+        <p>This website only shows helpful contact information. It does not send help by itself.</p>
+        <p>© 2026 Emergency Help</p>
+    </footer>
+
+    <script src="donors.js"></script>
+</body>
+</html>
